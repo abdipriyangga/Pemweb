@@ -1,0 +1,50 @@
+#Pertemuan 1
+#Sintaks PHP
+
+#Komentar
+    - # (Unix Shell)
+    - // 
+    - /* */
+    
+#Standar Output 
+    - echo
+    - print
+    - print_r
+    - var_dump adalah suatu method yang menampilkan type data, dan ukuran stringnya.
+
+#Cara penulisan Sintak PHP
+    - PHP di dalam tag HTML
+        <HTML> 
+            <head>
+            <title>...</title>
+            </head>
+            <body>
+                <h1> <?php echo "Hallo Semuanya"; ?> </h1>
+            </body>
+        </HTML>
+    - HTML di dalam tag PHP
+        <?php 
+            echo "<h1>";
+            echo "Hallo Semuanya";
+            echo "</h1>";
+        ?>
+
+#Variabel dan Tipe data
+    $var = "value"; #string
+    $var = 1 ; #integer
+
+#Tanda "" vs tanda ''
+    Tanda "" lebih sakti daripada tanda '', karena dengan menggunakna tanda "" kita bisa menggunakan 
+    konsep bernama interpolasi => untuk mengecek apakah didalam suatu string mengandung variabel atau tidak. 
+    ex : echo "halo nama saya $nama";
+         echo 'halo nama saya $nama'; #tidak mengandung interpolasi
+
+#Operator
+    + , - , * , / , %  operator aritmatika
+    . operator concate / penggabung string
+    = , += , -= , *= , /= , %= , .= , operator assignment
+    < , > , <= , >= , != , == operator perbandingan 
+        var_dump(1 < 10) = true or false
+    !==, === operator identitas untuk mengecek nilai dan tipe data
+    && , || , ! operator logika 
+
